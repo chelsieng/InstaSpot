@@ -2,12 +2,34 @@
 
 ## Summary
 
-These days, social media has become a powerful tool that drives trends and popularity to a great extent. Instagram alone currently has over one billion active users. There is great potential for increasing reach, popularity, and engagement by optimizing this market. Travel posts on Instagram allow users to discover new destinations around the world through their stunning visuals and scenery. Our goal is to leverage this market by developing a tool that will identify key likings that coincide with a user's individual interests, empowering them to discover new and exciting travel destinations. By extracting key features from a dataset of Instagram posts, a model is built to recommend new landmarks to discover and travel from a user’s input on preference and interest. 
+These days, social media has become a powerful tool that drives trends and popularity to a great extent. Instagram alone
+currently has over one billion active users. There is a great potential for increasing reach, popularity, and engagement
+by optimizing this market. Travel posts on Instagram allow users to discover new destinations worldwide through their
+stunning visuals and scenery. Our goal is to leverage this market by developing a tool that identifies main preferences
+based on user interests, empowering users to discover new and exciting travel destinations. Our model will recommend new
+landmarks by extracting key features from a dataset of Instagram posts and user input on preference and interest.
 
-Our dataset comes from Proceedings of The Web Conference (WWW '20), ACM, 2020, provided by Seungbae Kim. This dataset classified influencers into nine categories related to beauty, family, fashion, fitness, food, interior, pet, travel, and others. This dataset contains 300 posts per influencer so there are over 10 million Instagram posts where each influencer is categorized based on the metadata of their posts. Each post metadata file is in JSON format and contains information such as caption, user tags, hashtags, timestamp, sponsorship, likes, comments, etc. Given this massive amount of data, preprocessing is required to extract relevant information. All in all, we considered only the metadata of travel influencers and ended up with around 70,000 post metadata, from which we also extracted pertinent fields such as post id, location name, location id, hashtags, number of likes and the list of users who commented whether they liked the post or not. With these specific features, we can map whether a location is a hotspot. 
+Our dataset comes from Proceedings of The Web Conference (WWW 20), ACM, 2020, provided by Seungbae Kim. This dataset
+classified influencers into nine categories related to beauty, family, fashion, fitness, food, interior, pet, travel,
+and others. This dataset contains 300 posts per influencer, so there are over 10 million Instagram posts where each
+influencer is categorized based on their post metadata. Each post metadata file is in JSON format and contains details
+like caption, user tags, hashtags, timestamp, sponsorship, likes, comments, etc. Given this massive amount of data,
+preprocessing was required to extract relevant information. Considering only the metadata of travel influencers, we came
+to around 70,000 post metadata. We also extracted pertinent fields such as post id, location name, location id,
+hashtags, number of likes, and the list of users who commented whether they liked the post or not. With these specific
+features, we can map whether a location is a hotspot or not.
 
-As such, users are able to find compelling travel destinations in a large corpus of posts using a recommendation system. A recommendation system can provide suggestions that users might not have initially thought to look for themselves. By using content-based filtering, we will be able to recommend locations that are catered to the user’s interests. We will be using the Pearson correlation coefficient content-based algorithm to recommend hotspots locations to users based on other similar locations the user has positively rated. Additionally, collaborative filtering addresses some of the limitations of content-based filtering by detecting similarities between users and travel destinations simultaneously. We will be using a Latent Factor collaborative filtering algorithm to further optimize our recommendations. With such features, we wish to create a recommendation system for potential travel destinations to allow users to be exposed to information about a particular location as much as possible based on their personal interests.
+As such, users can find compelling travel destinations in a large corpus of posts using a recommendation system. A
+recommendation system can provide suggestions users might not have initially thought to look for themselves. We will
+recommend locations that cater to user interests through a content-based filtering approach. We will be using the
+Pearson correlation coefficient algorithm to recommend hotspots locations to users based on other similar spots the user
+has liked. We will also use the collaborative filtering approach to address and compare some of the limitations of
+content-based filtering by detecting similarities between users and travel destinations simultaneously. We will be using
+the Latent Factor algorithm with Stochastic gradient descent to optimize our recommendations.
+
+With such features, we wish to create a recommendation system for potential travel destinations to allow users to be
+exposed to information about a particular location as much as possible based on their interests.
 
 ## Acknowledgements
 
- - [Instagram Influencer Dataset](https://sites.google.com/site/sbkimcv/dataset)
+- [Instagram Influencer Dataset](https://sites.google.com/site/sbkimcv/dataset)
