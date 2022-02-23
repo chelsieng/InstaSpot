@@ -16,7 +16,7 @@ Misheelt Munkhjargal | 40196482
     <p> These days, social media has become a powerful tool that drives trends and popularity to a great extent. Instagram alone
     currently has over one billion active users. There is a great potential for increasing reach, popularity, and engagement
     by optimizing this market. Travel posts on Instagram allow users to discover new destinations worldwide through their
-    stunning visuals and scenery. Which brings up the following research question: How can social media choose our next travel 
+    stunning visuals and scenery. Which brings up the following research question: How can Instagram choose our next travel 
     destination? Our goal is to leverage this market by developing a tool that identifies main preferences
     based on user interests, empowering users to discover new and exciting travel destinations. Our model will recommend new
     landmarks by extracting key features from a dataset of Instagram posts and user input on preference and interest. </p>
