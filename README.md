@@ -37,8 +37,7 @@ has liked. We will also use the collaborative filtering approach to address and 
 content-based filtering by detecting similarities between users and travel destinations simultaneously. We will be using
 the Latent Factor algorithm with Stochastic gradient descent to optimize our recommendations. </p>
 
-<p> With such features, we wish to create a recommendation system for potential travel destinations to allow users to be
-exposed to information about a particular location as much as possible based on their interests. </p>
+<p> With such features, we wish to answer the following research question: Can we effectively recommend potential travel destinations to allow users to obtain information about a particular location as much as possible based on their interests? </p>
 </div>
   
 ## Acknowledgements
