@@ -12,7 +12,7 @@ Misheelt Munkhjargal | 40196482
 
 <div align="justify">
 
-  <h4> Project Definition & Research Question </h2>
+  <h4> How can Instagram choose our next travel destination? </h4>
     <p> These days, social media has become a powerful tool that drives trends and popularity to a great extent. Instagram alone
     currently has over one billion active users. There is a great potential for increasing reach, popularity, and engagement
     by optimizing this market. Travel posts on Instagram allow users to discover new destinations worldwide through their
@@ -21,7 +21,7 @@ Misheelt Munkhjargal | 40196482
     based on user interests, empowering users to discover new and exciting travel destinations. Our model will recommend new
     landmarks by extracting key features from a dataset of Instagram posts and user input on preference and interest. </p>
 
-  <h4> Dataset description </h2>
+  <h4> Dataset description </h4>
     <p> Our dataset comes from Proceedings of The Web Conference (WWW 20), ACM, 2020, provided by Seungbae Kim. This dataset
     classified influencers into nine categories related to beauty, family, fashion, fitness, food, interior, pet, travel,
     and others. This dataset contains 300 posts per influencer, so there are over 10 million Instagram posts where each
@@ -32,7 +32,7 @@ Misheelt Munkhjargal | 40196482
     hashtags, number of likes, and the list of users who commented whether they liked the post or not. With these specific
     features, we can map whether a location is a hotspot or not. </p>
 
-  <h4> Model Classes & Algorithms </h2>
+  <h4> Model Classes & Algorithms </h4>
     <p> As such, users can find compelling travel destinations in a large corpus of posts using a recommendation system. A
     recommendation system can provide suggestions users might not have initially thought to look for themselves. We will
     recommend locations that cater to user interests through a content-based filtering approach. We will be using the
