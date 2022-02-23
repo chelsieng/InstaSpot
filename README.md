@@ -32,7 +32,7 @@ Misheelt Munkhjargal | 40196482
     hashtags, number of likes, and the list of users who commented whether they liked the post or not. With these specific
     features, we can map whether a location is a hotspot or not. </p>
 
-  <h4> Model Classes & Algorithms </h4>
+  <h4> Model Design & Algorithms </h4>
     <p> As such, users can find compelling travel destinations in a large corpus of posts using a recommendation system. A
     recommendation system can provide suggestions users might not have initially thought to look for themselves. We will
     recommend locations that cater to user interests through a content-based filtering approach. We will be using the
