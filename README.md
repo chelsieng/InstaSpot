@@ -17,10 +17,10 @@ Misheelt Munkhjargal | 40196482
     currently has over one billion active users. There is a great potential for increasing reach, popularity, and engagement
     by optimizing this market. Travel posts on Instagram allow users to discover new destinations worldwide through their
     stunning visuals and scenery. Which brings up the following research questions: How can Instagram choose our next travel 
-    destination? Can we effectively recommend locations on Instagram based on a user’s personal interests?
-    Our goal is to leverage this market by developing a tool that identifies main preferences based on user interests, 
-    empowering users to discover new and exciting travel destinations. Our model will recommend new landmarks by extracting key 
-    features from a dataset of Instagram posts and user input on preference and interest. </p>
+    destination? Can we effectively recommend locations on Instagram based on user interests? Our goal is to leverage this market 
+    by developing a tool that identifies main preferences based on user interests, empowering users to discover new and exciting 
+    travel destinations. Our model will recommend new landmarks by extracting key features from a dataset of Instagram posts and 
+    user input on preference and interest. </p>
 
   <h4> Dataset description </h4>
     <p> Our dataset comes from Proceedings of The Web Conference (WWW 20), ACM, 2020, provided by Seungbae Kim. This dataset
