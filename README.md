@@ -1,12 +1,6 @@
 # InstaSPOT: **your next travel destination in an instant** :round_pushpin: #
-### SOEN471 Winter 2022 Big Data Analytics Project by Team 8 ###
 
-Name  | ID
-------------- | -------------
-Alvaro Tolosa  | 40020196
-Chelsie Ng  | 40071692
-Johnny On | 40137434
-Misheelt Munkhjargal | 40196482
+Presentation slides can be found [here](https://github.com/chelsieng/InstaSpot/wiki).
 
 ## Summary
 
@@ -49,3 +43,10 @@ Misheelt Munkhjargal | 40196482
 ## Acknowledgements
 
 - [Instagram Influencer Dataset](https://sites.google.com/site/sbkimcv/dataset)
+
+## Authors
+
+- [@Chelsie Ng](https://github.com/chelsieng)
+- [@Johnny On](https://github.com/xkaDachi)
+- [@Misheelt Munkhjargal](https://github.com/mia9704)
+- [@Alvaro Tolosa](https://github.com/albaq)
